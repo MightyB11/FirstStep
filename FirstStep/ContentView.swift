@@ -106,7 +106,7 @@ struct stepCounter: View {
             Button(action: {
                 //Action
             }, label: {
-                    Text("คุณมี")
+                    Text("coochie")
                         .font(.system(size: 60, weight: .bold))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
                     Text("\(step.count)")
@@ -139,7 +139,7 @@ struct attractions1: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 450.0)
                 .ignoresSafeArea()
-                
+            
         }
     }
 }
