@@ -106,10 +106,10 @@ struct stepCounter: View {
             Button(action: {
                 //Action
             }, label: {
-                    Text("coochie")
+                    Text("คุณมี")
                         .font(.system(size: 60, weight: .bold))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
-                    Text("\(step.count)")
+                    Text("4200")//connect with HealthUI
                         .font(.system(size:100, weight:.black))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
                         .multilineTextAlignment(.center)
