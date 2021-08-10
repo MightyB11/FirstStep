@@ -10,6 +10,8 @@ import HealthKit
 
 struct ContentView: View {
     
+    
+    
     private var healthStore: HealthStore?
     @State private var steps: [Step] = [Step]()
     
@@ -106,11 +108,11 @@ struct stepCounter: View {
             Button(action: {
                 //Action
             }, label: {
-                    Text("coochie")
+                    Text("คุณมี")
                         .font(.system(size: 60, weight: .bold))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
-                    Text("\(step.count)")
-                        .font(.system(size:100, weight:.black))
+                    Text("100")
+                        .font(.system(size:80, weight:.black))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
                         .multilineTextAlignment(.center)
                         .lineLimit(nil)
@@ -143,3 +145,5 @@ struct attractions1: View {
         }
     }
 }
+
+
