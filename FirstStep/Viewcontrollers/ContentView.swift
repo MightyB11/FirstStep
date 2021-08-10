@@ -102,31 +102,35 @@ struct topMenu: View {
 
 struct stepCounter: View {
     var body: some View {
-        VStack{
+        VStack(spacing:-20){
             Button(action: {
                 //Action
             }, label: {
                     Text("คุณมี")
-                        .font(.system(size: 60, weight: .bold))
+                        .font(.system(size: 70, weight: .bold))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
-                    Text("4200")//connect with HealthUI
-                        .font(.system(size:100, weight:.black))
-                        .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
-                        .multilineTextAlignment(.center)
-                        .lineLimit(nil)
-                        .padding()
-                    Text("ก้าว")
-                        .font(.system(size: 90, weight: .bold))
-                        .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
-                })
-        
+            })
+            Button(action: {
+            }, label: {
+                Text("4200")//connect with HealthUI
+                    .font(.system(size:100, weight:.black))
+                    .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
+                    .multilineTextAlignment(.center)
+                    .lineLimit(nil)
+                    .padding()
+            })
+
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Text("ก้าว")
+                    .font(.system(size: 90, weight: .bold))
+                    .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
+            })
     
-            }
-    .padding(.top, 100.0)
-    
-    
+        }
+        .padding(.top, 100.0).padding(.horizontal, 15)
+    }
 }
-}
+
 
 struct attractions1: View {
     var body: some View {
