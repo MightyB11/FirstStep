@@ -109,6 +109,8 @@ struct stepCounter: View {
                     Text("คุณมี")
                         .font(.system(size: 70, weight: .bold))
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 0.8526533842, blue: 0.4547202587, alpha: 1)))
+                
+                        
             })
             Button(action: {
             }, label: {

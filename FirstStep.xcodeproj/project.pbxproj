@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97AC963626C24DD400F04AB6 /* Arabica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */; };
+		97AC963826C24DD900F04AB6 /* CookieRun Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963726C24DD900F04AB6 /* CookieRun Black.otf */; };
 		97B0E50E26BC27E200EA5319 /* FirstStepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */; };
 		97B0E51026BC27E200EA5319 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50F26BC27E200EA5319 /* ContentView.swift */; };
 		97B0E51226BC27E600EA5319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B0E51126BC27E600EA5319 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arabica-Italic.ttf"; path = "../../../../Downloads/Arabica file/ttf/Arabica-Italic.ttf"; sourceTree = "<group>"; };
+		97AC963726C24DD900F04AB6 /* CookieRun Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CookieRun Black.otf"; path = "../../../../Downloads/CookieRunFont_OTF/CookieRun Black.otf"; sourceTree = "<group>"; };
 		97B0E50A26BC27E200EA5319 /* FirstStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepApp.swift; sourceTree = "<group>"; };
 		97B0E50F26BC27E200EA5319 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		97AC962E26C24D8000F04AB6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */,
+				97AC963726C24DD900F04AB6 /* CookieRun Black.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		97B0E50126BC27E200EA5319 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +91,7 @@
 		97B0E50C26BC27E200EA5319 /* FirstStep */ = {
 			isa = PBXGroup;
 			children = (
+				97AC962E26C24D8000F04AB6 /* Font */,
 				97AC962D26C2494D00F04AB6 /* Views */,
 				97AC962C26C2470D00F04AB6 /* Viewcontrollers */,
 				97B0E52226BC708E00EA5319 /* Models */,
@@ -171,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97B0E51526BC27E600EA5319 /* Preview Assets.xcassets in Resources */,
+				97AC963626C24DD400F04AB6 /* Arabica-Italic.ttf in Resources */,
 				97B0E51226BC27E600EA5319 /* Assets.xcassets in Resources */,
+				97AC963826C24DD900F04AB6 /* CookieRun Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
