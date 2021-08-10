@@ -49,6 +49,15 @@
 			path = Viewcontrollers;
 			sourceTree = "<group>";
 		};
+		97AC962D26C2494D00F04AB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */,
+				97B0E51C26BC436200EA5319 /* HealthStore.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		97B0E50126BC27E200EA5319 = {
 			isa = PBXGroup;
 			children = (
@@ -69,11 +78,10 @@
 		97B0E50C26BC27E200EA5319 /* FirstStep */ = {
 			isa = PBXGroup;
 			children = (
+				97AC962D26C2494D00F04AB6 /* Views */,
 				97AC962C26C2470D00F04AB6 /* Viewcontrollers */,
 				97B0E52226BC708E00EA5319 /* Models */,
 				97B0E51E26BC677300EA5319 /* FirstStep.entitlements */,
-				97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */,
-				97B0E51C26BC436200EA5319 /* HealthStore.swift */,
 				97B0E51126BC27E600EA5319 /* Assets.xcassets */,
 				97B0E51626BC27E600EA5319 /* Info.plist */,
 				97B0E51326BC27E600EA5319 /* Preview Content */,
