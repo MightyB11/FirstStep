@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97AB87EC26C426C1001EB7B3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB87EB26C426C1001EB7B3 /* SideMenu.swift */; };
 		97AC963626C24DD400F04AB6 /* Arabica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */; };
 		97AC963826C24DD900F04AB6 /* CookieRun Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963726C24DD900F04AB6 /* CookieRun Black.otf */; };
 		97B0E50E26BC27E200EA5319 /* FirstStepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97AB87EB26C426C1001EB7B3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arabica-Italic.ttf"; path = "../../../../Downloads/Arabica file/ttf/Arabica-Italic.ttf"; sourceTree = "<group>"; };
 		97AC963726C24DD900F04AB6 /* CookieRun Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CookieRun Black.otf"; path = "../../../../Downloads/CookieRunFont_OTF/CookieRun Black.otf"; sourceTree = "<group>"; };
 		97B0E50A26BC27E200EA5319 /* FirstStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				97B0E50F26BC27E200EA5319 /* ContentView.swift */,
+				97AB87EB26C426C1001EB7B3 /* SideMenu.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				97B0E51026BC27E200EA5319 /* ContentView.swift in Sources */,
 				97B0E52426BC70A800EA5319 /* Step.swift in Sources */,
+				97AB87EC26C426C1001EB7B3 /* SideMenu.swift in Sources */,
 				97B0E51D26BC436200EA5319 /* HealthStore.swift in Sources */,
 				97B0E50E26BC27E200EA5319 /* FirstStepApp.swift in Sources */,
 			);

@@ -39,14 +39,21 @@ struct ContentView: View {
             Color(#colorLiteral(red: 0.8640606999, green: 0.9640640616, blue: 0.949200213, alpha: 1))
                 .ignoresSafeArea()
             VStack(spacing:-50){
-                topMenu() //menu and coin
+                HStack{
+                    Spacer()
+                    sideMenu()
+                    Spacer()
+                    coinStore()
+                    Spacer()
+                }
+                .padding(.horizontal, -120)
                 Spacer()
                 stepCounter()
                 attractions1()
                 }
+            .padding()
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
-            
     
         .onAppear {
             if let healthStore = healthStore {
@@ -73,53 +80,39 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 
-struct topMenu: View {
-    @State var menuOpened = false
+struct sideMenu: View {
     var body: some View {
-        HStack(){
-            Spacer()
             ZStack{
-                if !menuOpened{
-                    Button(action: {
-                        //open menu
-                        self.menuOpened.toggle()
-                    }, label: {
-                        Image("Menu")
-                            .resizable()
-                            .frame(width:70, height:70)
-                            .padding(.trailing, 80.0)
-                            .padding(.leading, 30.0)
-                    })
-               
-                }
-                sideMenu(width: UIScreen.main.bounds.width/1.8,
-                         menuOpened: menuOpened,
-                         toggleMenu: toggleMenu)
+                Button(action: {
+                    //open menu
+                }, label: {
+                    Image("Menu")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:70, height:70)
 
-            }
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            
-            
-            Button(action: {
-                
-            }, label: {
-                Image("Coins")
-                    . resizable()
-                    .frame(width:150, height:150)
-                    .padding(.leading, 50.0)
-                    .padding(.trailing, 30.0)
-            })
-            Spacer()
-                }
-        
-        
+                })
         }
-    func toggleMenu(){
-        menuOpened.toggle()
-        
+            .padding(.trailing)
     }
 }
-
+       
+struct coinStore: View{
+    var body: some View{
+       
+        Button(action: {
+            //open coin store
+            
+        }, label: {
+            Image("Coins")
+                . resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width:150, height:150)
+                
+        })
+        .padding(.leading)
+    }
+}
 
 struct menuItem: Identifiable{
     var id = UUID ()
@@ -172,36 +165,6 @@ struct menuContent: View {
     }
 }
 
-struct sideMenu: View {
-    let width: CGFloat
-    let menuOpened: Bool
-    let toggleMenu: () -> Void
-   
-    var body: some View {
-        ZStack{
-            //Dimmed background view
-            GeometryReader{ _ in
-                EmptyView()
-            }
-            .background(Color.green.opacity(0.25))
-            .opacity(self.menuOpened ? 1:0)
-            .animation(Animation.easeIn.delay(0.5))
-            .onTapGesture {
-                self.toggleMenu()
-            }
-            
-            //menuContent
-            HStack{
-                menuContent()
-                    .frame(width: width)
-                    .offset(x: menuOpened ? 0: -width)
-                    .animation(.default)
-                    
-                Spacer()
-            }
-        }
-    }
-}
 struct stepCounter: View {
     var body: some View {
         VStack(spacing:-20){
