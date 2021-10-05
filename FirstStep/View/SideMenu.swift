@@ -20,11 +20,14 @@ struct SideMenu: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width:275, height:100)
                     .cornerRadius(40)
+                    .padding()
+                    .padding(.leading, 20)
 
                 
                 ScrollView(.vertical, showsIndicators: false){
                     
                     VStack{
+                        
                         VStack(alignment: .leading, spacing: 20){
                             
                             //Tap Buttons
@@ -61,17 +64,12 @@ struct SideMenu: View {
                                 )
                         
                     }
-                        .padding()
-                        .padding(.leading)
-                        .padding(.top,35)
-                        
-                        
-                 
                         
                     }
-                    
-                    
-                    
+                    .padding()
+                    .padding(.leading, 95)
+                    .padding(.top,35)
+
                 }
                 
                 
@@ -81,17 +79,15 @@ struct SideMenu: View {
             
             
         }
+        .padding(.vertical)
+        .frame(maxWidth:.infinity, alignment:.leading)
         //Max Width
-        .frame(width:getRect().width - 90)
+        .frame(width:getRect().width - 100)
         .frame(maxHeight: .infinity)
-        
         .background(
             
             Color(red: 181/255, green: 226/255, blue: 221/255)
-                .ignoresSafeArea(.container, edges: .vertical)
-        
-        )
-        .frame(maxWidth: .infinity, alignment: .leading)
+                .ignoresSafeArea(.container, edges: .vertical))
         
     }
     
@@ -106,16 +102,17 @@ struct SideMenu: View {
                     .resizable()
                     .renderingMode(.original)
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 60, height: 60)
+                    .frame(width: 50, height: 50)
                 
                 Text(title)
             }
             .foregroundColor(.white)
-            .font(Font.custom("CookieRunOTF Black", size:25))
+            .font(Font.custom("CookieRunOTF Black", size:18))
             .frame(maxWidth:.infinity,alignment:.leading)
             
                 
         }
+        .padding(.leading)
             
     }
 }

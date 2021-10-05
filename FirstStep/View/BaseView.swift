@@ -13,6 +13,7 @@ struct BaseView: View {
     var body: some View {
     
         let sideBarWidth = getRect().width - 90
+        
         // Whole Navigation View
         NavigationView {
             
@@ -21,37 +22,7 @@ struct BaseView: View {
                 //Side Menu...
                 SideMenu(showMenu: $showMenu)
                 
-                //Main Tab Menu...
-                    
-                TabView{
-                    
-                    HomeView()
-                        .navigationBarTitleDisplayMode(.inline)
-                        .navigationBarHidden(true)
-                        .tag("HomeView")
-                        .ignoresSafeArea(.all)
-                    
-                    
-                    Text("Home")
-                        .navigationBarTitleDisplayMode(.inline)
-                    
-                        .navigationBarHidden(true)
-                        .tag("Home")
-                    
-                    Text("Home")
-                        .navigationBarTitleDisplayMode(.inline)
-                    
-                        .navigationBarHidden(true)
-                        .tag("Home")
-                    
-                    Text("Home")
-                        .navigationBarTitleDisplayMode(.inline)
-                    
-                        .navigationBarHidden(true)
-                        .tag("Home")
-                    
-                }
-                .frame(width: getRect().width)
+    
                
             }
 
