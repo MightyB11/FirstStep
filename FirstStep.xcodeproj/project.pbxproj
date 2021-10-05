@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97AB87EC26C426C1001EB7B3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB87EB26C426C1001EB7B3 /* SideMenu.swift */; };
-		97AC963626C24DD400F04AB6 /* Arabica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */; };
-		97AC963826C24DD900F04AB6 /* CookieRun Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963726C24DD900F04AB6 /* CookieRun Black.otf */; };
+		970B1EEB26F11AFD000C958E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B1EEA26F11AFD000C958E /* ContentView.swift */; };
+		976C356626F25D4300B0483D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976C356526F25D4300B0483D /* BaseView.swift */; };
+		976C356826F25DE300B0483D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976C356726F25DE300B0483D /* SideMenu.swift */; };
+		979D12A426F4AB74007AF192 /* CookieRun Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 979D12A326F4AB74007AF192 /* CookieRun Regular.otf */; };
 		97B0E50E26BC27E200EA5319 /* FirstStepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */; };
-		97B0E51026BC27E200EA5319 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50F26BC27E200EA5319 /* ContentView.swift */; };
+		97B0E51026BC27E200EA5319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E50F26BC27E200EA5319 /* HomeView.swift */; };
 		97B0E51226BC27E600EA5319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B0E51126BC27E600EA5319 /* Assets.xcassets */; };
 		97B0E51526BC27E600EA5319 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B0E51426BC27E600EA5319 /* Preview Assets.xcassets */; };
 		97B0E51D26BC436200EA5319 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E51C26BC436200EA5319 /* HealthStore.swift */; };
 		97B0E52126BC677300EA5319 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B0E52026BC677300EA5319 /* HealthKit.framework */; };
 		97B0E52426BC70A800EA5319 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E52326BC70A800EA5319 /* Step.swift */; };
+		97D77D7526F3596A00DE4EA8 /* Arabica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */; };
+		97D77D7626F3598900DE4EA8 /* CookieRun Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97AC963726C24DD900F04AB6 /* CookieRun Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97AB87EB26C426C1001EB7B3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		7F9FBD97AC9BE197C6975362 /* Pods-FirstStep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep.release.xcconfig"; path = "Target Support Files/Pods-FirstStep/Pods-FirstStep.release.xcconfig"; sourceTree = "<group>"; };
+		970B1EEA26F11AFD000C958E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		976C356526F25D4300B0483D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		976C356726F25DE300B0483D /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		979D12A326F4AB74007AF192 /* CookieRun Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CookieRun Regular.otf"; path = "../../../../Downloads/CookieRunFont_OTF/CookieRun Regular.otf"; sourceTree = "<group>"; };
 		97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arabica-Italic.ttf"; path = "../../../../Downloads/Arabica file/ttf/Arabica-Italic.ttf"; sourceTree = "<group>"; };
 		97AC963726C24DD900F04AB6 /* CookieRun Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CookieRun Black.otf"; path = "../../../../Downloads/CookieRunFont_OTF/CookieRun Black.otf"; sourceTree = "<group>"; };
 		97B0E50A26BC27E200EA5319 /* FirstStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B0E50D26BC27E200EA5319 /* FirstStepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepApp.swift; sourceTree = "<group>"; };
-		97B0E50F26BC27E200EA5319 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97B0E50F26BC27E200EA5319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		97B0E51126BC27E600EA5319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B0E51426BC27E600EA5319 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97B0E51626BC27E600EA5319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +40,7 @@
 		97B0E51E26BC677300EA5319 /* FirstStep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstStep.entitlements; sourceTree = "<group>"; };
 		97B0E52026BC677300EA5319 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		97B0E52326BC70A800EA5319 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		EDC6BBA59CABAD5FDB8D3AFA /* Pods-FirstStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstStep.debug.xcconfig"; path = "Target Support Files/Pods-FirstStep/Pods-FirstStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +58,7 @@
 		97AC962C26C2470D00F04AB6 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				97B0E50F26BC27E200EA5319 /* ContentView.swift */,
-				97AB87EB26C426C1001EB7B3 /* SideMenu.swift */,
+				970B1EEA26F11AFD000C958E /* ContentView.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -69,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				97AC963526C24DD400F04AB6 /* Arabica-Italic.ttf */,
+				979D12A326F4AB74007AF192 /* CookieRun Regular.otf */,
 				97AC963726C24DD900F04AB6 /* CookieRun Black.otf */,
 			);
 			path = Font;
@@ -80,6 +88,7 @@
 				97B0E50C26BC27E200EA5319 /* FirstStep */,
 				97B0E50B26BC27E200EA5319 /* Products */,
 				97B0E51F26BC677300EA5319 /* Frameworks */,
+				BAD91344BC7708D1CF4DEFAD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +105,7 @@
 			children = (
 				97AC962E26C24D8000F04AB6 /* Font */,
 				97AC962D26C2494D00F04AB6 /* Views */,
+				97CD28AA26F104F10009131C /* View */,
 				97AC962C26C2470D00F04AB6 /* Viewcontrollers */,
 				97B0E52226BC708E00EA5319 /* Models */,
 				97B0E51E26BC677300EA5319 /* FirstStep.entitlements */,
@@ -130,6 +140,25 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		97CD28AA26F104F10009131C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				976C356526F25D4300B0483D /* BaseView.swift */,
+				976C356726F25DE300B0483D /* SideMenu.swift */,
+				97B0E50F26BC27E200EA5319 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAD91344BC7708D1CF4DEFAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6BBA59CABAD5FDB8D3AFA /* Pods-FirstStep.debug.xcconfig */,
+				7F9FBD97AC9BE197C6975362 /* Pods-FirstStep.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97B0E51926BC27E600EA5319 /* Build configuration list for PBXNativeTarget "FirstStep" */;
 			buildPhases = (
+				BCC206263F7665669E5C8672 /* [CP] Check Pods Manifest.lock */,
 				97B0E50626BC27E200EA5319 /* Sources */,
 				97B0E50726BC27E200EA5319 /* Frameworks */,
 				97B0E50826BC27E200EA5319 /* Resources */,
@@ -187,23 +217,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D77D7526F3596A00DE4EA8 /* Arabica-Italic.ttf in Resources */,
+				979D12A426F4AB74007AF192 /* CookieRun Regular.otf in Resources */,
 				97B0E51526BC27E600EA5319 /* Preview Assets.xcassets in Resources */,
-				97AC963626C24DD400F04AB6 /* Arabica-Italic.ttf in Resources */,
+				97D77D7626F3598900DE4EA8 /* CookieRun Black.otf in Resources */,
 				97B0E51226BC27E600EA5319 /* Assets.xcassets in Resources */,
-				97AC963826C24DD900F04AB6 /* CookieRun Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCC206263F7665669E5C8672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstStep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97B0E50626BC27E200EA5319 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97B0E51026BC27E200EA5319 /* ContentView.swift in Sources */,
+				97B0E51026BC27E200EA5319 /* HomeView.swift in Sources */,
 				97B0E52426BC70A800EA5319 /* Step.swift in Sources */,
-				97AB87EC26C426C1001EB7B3 /* SideMenu.swift in Sources */,
+				970B1EEB26F11AFD000C958E /* ContentView.swift in Sources */,
+				976C356826F25DE300B0483D /* SideMenu.swift in Sources */,
+				976C356626F25D4300B0483D /* BaseView.swift in Sources */,
 				97B0E51D26BC436200EA5319 /* HealthStore.swift in Sources */,
 				97B0E50E26BC27E200EA5319 /* FirstStepApp.swift in Sources */,
 			);
@@ -330,6 +388,7 @@
 		};
 		97B0E51A26BC27E600EA5319 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC6BBA59CABAD5FDB8D3AFA /* Pods-FirstStep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,6 +412,7 @@
 		};
 		97B0E51B26BC27E600EA5319 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9FBD97AC9BE197C6975362 /* Pods-FirstStep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
